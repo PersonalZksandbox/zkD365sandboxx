@@ -1,0 +1,6 @@
+@zkD365tryout_HostAddress = http://localhost:5086
+
+GET {{zkD365tryout_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
