@@ -7,6 +7,9 @@
     <UserSecretsId>be506644-c462-4e97-8812-3576ad136d0f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\zkD365tryout.infrastructure\zkD365tryout.infrastructure.csproj" />
+    <ProjectReference Include="zkD365tryout.infrastructure\zkD365tryout.infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

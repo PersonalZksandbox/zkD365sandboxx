@@ -24,7 +24,7 @@ namespace zkD365tryout.Controllers
         {
             var token = await _dynamicsCrmService.GetAccessTokenAsync();
             var location = await _dynamicsCrmService.CreateD365SalesAccountName(token,account);
-            return Ok(token);
+            return Ok(location);
 
         }
     }
